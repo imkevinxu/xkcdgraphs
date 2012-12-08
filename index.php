@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- Facebook Meta Data -->
-    <meta property="og:url" content="http://imkevinxu.com/xkcd" />
+    <meta property="og:url" content="http://xkcdgraphs.com" />
     <meta property="og:title" content="Create your own XKCD-style Graphs" />
     <meta property="og:description" content="Instant XKCD-style Graphs created in Javascript D3 for your enjoyment" />
-    <meta property="og:image" content="http://imkevinxu.com/xkcd/graph.png" />
+    <meta property="og:image" content="http://xkcdgraphs.com/graph.png" />
     <meta property="og:type" content="website" />
 
     <script type="text/javascript">
@@ -117,7 +117,7 @@
     <footer class="container">
 
         <div class="social">
-            <div class="fb-like" data-href="http://imkevinxu.com/xkcd/" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+            <div class="fb-like" data-href="http://xkcdgraphs.com/" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div>
             <a href="https://twitter.com/share" class="twitter-share-button" data-text="Create your own XKCD-style Graphs instantly" data-via="imkevinxu">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
@@ -130,7 +130,7 @@
 
     </footer>
 
-    <a href="https://github.com/imkevinxu/imkevinxu/tree/master/xkcd" target="_blank">
+    <a href="https://github.com/imkevinxu/xkcdgraphs" target="_blank">
         <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
     </a>
 
