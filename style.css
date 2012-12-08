@@ -1,0 +1,188 @@
+/* Artfully masterminded by Kevin Xu <kevin@imkevinxu.com> */
+
+@font-face {
+    font-family: "xkcd";
+    src: url('http://antiyawn.com/uploads/Humor-Sans.ttf');
+}
+
+body {
+    font-family: "xkcd", sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: steelblue;
+}
+
+a:hover {
+    color: #0E5C9E;
+}
+
+.container {
+    width: 700px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.left {
+    padding-left: 70px;
+    float: left;
+}
+
+.right {
+    padding-right: 70px;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#plot, #examples {
+    width: 700px;
+    margin: 70px auto;
+    text-align: center;
+}
+
+#plot h1, #examples h1 {
+    text-align: center;
+}
+
+#plot {
+    margin-top: 50px;
+}
+
+#examples {
+    border: 1px solid #999;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -moz-box-shadow:    0px 0px 3px 1px #ccc;
+    -webkit-box-shadow: 0px 0px 3px 1px #ccc;
+    box-shadow:         0px 0px 3px 1px #ccc;
+}
+
+#examples h1:nth-child(n+2) {
+    margin-top: 100px;
+}
+
+p {
+    margin: 10px 0 20px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+form {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+div.input {
+    margin: 10px auto;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+input {
+    display: inline-block;
+    width: 135px;
+    height: 24px;
+    font-size: 18px;
+    font-family: "xkcd";
+    padding: 2px 5px;
+    border: 1px solid #999;
+}
+
+label.slider {
+    top: -9px;
+    position: relative;
+    padding-left: 30px;
+}
+
+#slider {
+    width: 429px;
+    top: 0px;
+    right: -4px;
+    height: 24px;
+    display: inline-block;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -khtml-border-radius: 0px;
+    border-radius: 0px
+}
+
+#slider a {
+    height: 36px;
+    width: 30px;
+    border: 1px solid #999;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -khtml-border-radius: 0px;
+    border-radius: 0px
+}
+
+span#more {
+    width: 24px;
+    height: 24px;
+    right: -8px;
+    top: -7px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #999;
+    font-size: 20px;
+    font-family: "Helvetica", "Arial";
+    text-align: center;
+}
+
+span#more:hover, span#more:active {
+    color: #2A85E8;
+    border: 1px solid #2A85E8;
+    cursor: pointer;
+}
+
+.equation2, .equation3,
+.equation4, .equation5 {
+    display: none;
+}
+
+text.title {
+    font-size: 20px;
+}
+
+path {
+    fill: none;
+    stroke-width: 2.5px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+path.axis {
+    stroke: black;
+}
+
+path.bgline {
+    stroke: white;
+    stroke-width: 6px;
+}
+
+footer {
+    display: block;
+    height: 90px;
+}
+
+.social {
+    float: left;
+}
+
+.fb-like span:first-child {
+    height: 24px !important;
+}
+
+.credit {
+    float: right;
+}
