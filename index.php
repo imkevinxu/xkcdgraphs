@@ -2,10 +2,20 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Create your own XKCD-style Graphs</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
-    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="style.css" />
+    <title>Create your own XKCD-style Graphs</title>
+    <meta name="description" content="Instant XKCD-style Graphs created in Javascript D3 for your enjoyment" />
+    <meta name="author" content="Kevin Xu, Charlie Guo" />
+    <!-- <link rel="icon" type="image/x-icon" href="graph.png" /> -->
+
+    <!-- Apple Meta Data -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+    <link rel="apple-touch-icon-precomposed" href="graph.png" />
 
     <!-- Facebook Meta Data -->
     <meta property="og:url" content="http://xkcdgraphs.com" />
@@ -13,6 +23,10 @@
     <meta property="og:description" content="Instant XKCD-style Graphs created in Javascript D3 for your enjoyment" />
     <meta property="og:image" content="http://xkcdgraphs.com/graph.png" />
     <meta property="og:type" content="website" />
+
+    <!-- CSS Files -->
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="style.css" />
 
     <script type="text/javascript">
         var _gaq = _gaq || [];
