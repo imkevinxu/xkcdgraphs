@@ -14,8 +14,7 @@
     <!-- Apple Meta Data -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
-    <link rel="apple-touch-icon-precomposed" href="graph.png" />
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png" />
 
     <!-- Facebook Meta Data -->
     <meta property="og:url" content="http://xkcdgraphs.com" />
