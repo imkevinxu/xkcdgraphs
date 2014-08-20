@@ -83,7 +83,7 @@ $(document).ready(function() {
         data4 = d3.range(xmin, xmax, (xmax - xmin) / N).map(function (d) {
             return {x: d, y: f8(d)};
         }),
-        parameters = {  title: "X^2, X^-2, 2X, and 80",
+        parameters = {  title: "X^2, -X^2, 2X, and 80",
                         xlabel: "# of Apple Devices",
                         ylabel: "Fanboy Levels",
                         xlim: [xmin - (xmax - xmin) / 16, xmax + (xmax - xmin) / 16] };
