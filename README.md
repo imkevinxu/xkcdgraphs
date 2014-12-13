@@ -8,3 +8,5 @@ Original xkcd.js script created by [Dan Foreman-Mackey](http://dan.iel.fm/xkcd/)
 * sin(x) and cos(x)
 * x^2, -x^2, 2x, and 80
 * x * cos(x)
+
+![Example Graphs](graph.png)
