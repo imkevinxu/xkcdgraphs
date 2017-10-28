@@ -93,7 +93,8 @@
             <div class="clear"></div>
             <label for="slider" class="slider">Refinement</label>
             <div id="slider"></div>
-            <span id="more">+</span>
+
+            <div class="clear"></div>
 
             <div class="left">
                 <div class="input">
@@ -118,6 +119,8 @@
                     <input type="text" id="equation5" class="equation5" placeholder="abs(x)" />
                 </div>
             </div>
+
+            <button type="button" id="more">More equation?</button>
 
             <div class="clear"></div>
         </form>
@@ -165,7 +168,8 @@
                 drawGraph();
             });
             $('#more').on('click', function() {
-                if ($(".equation4").css("display") === "inline-block") $(".equation5").fadeIn();
+                if ($(".equation4").css("display") === "inline-block") $("#more").fadeOut(100);
+                if ($(".equation4").css("display") === "inline-block") $(".equation5").delay(100).fadeIn();
                 if ($(".equation3").css("display") === "inline-block") $(".equation4").fadeIn();
                 if ($(".equation2").css("display") === "inline-block") $(".equation3").fadeIn();
                 $(".equation2").fadeIn();
