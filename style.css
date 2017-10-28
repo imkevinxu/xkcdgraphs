@@ -98,6 +98,14 @@ input {
     border: 1px solid #999;
 }
 
+button {
+    font-size: 18px;
+    font-family: "xkcd";
+    background: #e6e6e6;
+    margin: 10px;
+    border: 1px solid #999;
+}
+
 label.slider {
     top: -9px;
     position: relative;
